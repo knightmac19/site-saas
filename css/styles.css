@@ -193,7 +193,6 @@
 }
 
 /* header-section end */
-
 /* key-benefits section start */
 
 .key-benefits h2 {
@@ -261,21 +260,40 @@
 }
 /* key-benefits section end */
 
-/* .css-bg-test {
-  height: 300px;
-  border: 1px solid black;
+/* different perspectives start */
+
+.different-perspectives {
+  background-color: #f8fafd;
+  margin-bottom: var(--size-100);
+  width: 100%;
+  padding-left: 15px;
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.triangle {
-  border: 0 solid red;
-  border-left-width: 500px;
-  border-top-width: 30px;
-  border-top-color: transparent;
+.dif-perspectives-wrapper {
+  display: flex;
 }
-.trapezoid {
-  border: 0 solid red;
-  width: 500px;
-  border-bottom-width: 150px;
-  border-right-width: 30px;
-  border-right-color: transparent;
-} */
+
+.perspectives-text-wrapper {
+  margin: 140px 0 20px 0;
+  margin-right: 60px;
+}
+
+.perspectives-text-wrapper h2 {
+  color: black;
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.perspectives-text-wrapper,
+.perspectives-img-wrapper {
+  /* border: 1px solid pink; */
+}
+
+.perspectives-img-wrapper {
+  margin-top: var(--size-100);
+}
+/* different perspectives end */
