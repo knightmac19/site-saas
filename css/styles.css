@@ -337,3 +337,28 @@
 }
 
 /* why front section end */
+.banner-two {
+  position: relative;
+  margin-bottom: var(--size-50);
+}
+
+.play-circle-icon {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: var(--white);
+  box-shadow: 0 0 5px 1px var(--font-color-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.play-circle-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.play-circle-icon .fa-play {
+  color: black;
+}
