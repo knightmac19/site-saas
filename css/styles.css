@@ -195,14 +195,15 @@
 /* header-section end */
 /* key-benefits section start */
 
-.key-benefits h2 {
+.key-benefits h2,
+.why-front h2 {
   color: black;
   font-weight: 600;
   margin-bottom: 5px;
   font-size: 22px;
 }
 
-.key-benefits .key-benefits-text {
+.key-benefits-text {
   margin-top: 0;
   margin-bottom: var(--size-50);
 }
@@ -288,12 +289,51 @@
   font-size: 22px;
 }
 
-.perspectives-text-wrapper,
-.perspectives-img-wrapper {
-  /* border: 1px solid pink; */
-}
-
 .perspectives-img-wrapper {
   margin-top: var(--size-100);
 }
 /* different perspectives end */
+
+/* why front section start */
+.why-front {
+  margin-bottom: var(--size-100);
+}
+.dots-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 180px);
+  justify-content: space-between;
+}
+
+.dot-item-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: fit-content;
+  gap: 15px;
+}
+
+.dots-wrapper .gray-dot {
+  height: 40px;
+  width: 40px;
+  background-color: #d5deea85;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dots-wrapper .blue-dot {
+  height: 5px;
+  width: 5px;
+  background-color: var(--font-color-link);
+  border-radius: 50%;
+}
+
+.gray-line {
+  border-top: 2px solid #d5deea85;
+  width: 100%;
+}
+
+/* why front section end */
