@@ -339,7 +339,7 @@
 /* why front section end */
 .banner-two {
   position: relative;
-  margin-bottom: var(--size-50);
+  margin-bottom: var(--size-100);
 }
 
 .play-circle-icon {
@@ -361,4 +361,30 @@
 
 .play-circle-icon .fa-play {
   color: black;
+}
+
+/* hubspot section */
+.hubspot {
+  /* border: 1px solid black; */
+  margin-bottom: var(--size-50);
+  display: flex;
+  gap: var(--size-40);
+}
+
+.hubspot-text-wrapper {
+  margin-top: var(--size-100);
+}
+
+.hubspot-icon-wrapper {
+  width: 80px;
+}
+
+.hubspot-text-wrapper h3 {
+  font-weight: 400;
+  color: black;
+}
+
+.hubspot-text-wrapper h4,
+.hubspot-text-wrapper h6 {
+  margin: 0;
 }
