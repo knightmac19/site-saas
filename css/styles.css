@@ -366,7 +366,7 @@
 /* hubspot section */
 .hubspot {
   /* border: 1px solid black; */
-  margin-bottom: var(--size-50);
+  margin-bottom: var(--size-100);
   display: flex;
   gap: var(--size-40);
 }
@@ -387,4 +387,21 @@
 .hubspot-text-wrapper h4,
 .hubspot-text-wrapper h6 {
   margin: 0;
+}
+
+/* trusted by section */
+.trusted-by {
+  margin-bottom: var(--size-100);
+}
+.trusted-by h3 {
+  margin-bottom: var(--size-40);
+}
+.trusted-brands {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.trusted-brand {
+  width: 100px;
 }
