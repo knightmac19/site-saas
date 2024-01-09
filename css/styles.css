@@ -339,7 +339,7 @@
   margin-left: -59px;
   margin-right: -59px;
 }
-span {
+.why-text {
   width: 160px;
   text-align: center;
 }
@@ -646,4 +646,90 @@ span {
 .get-started {
   font-size: var(--size-12);
   font-weight: 400;
+}
+
+/* footer start */
+footer .top-row {
+  display: flex;
+
+  gap: var(--size-30);
+  align-items: flex-start;
+  margin-bottom: var(--size-20);
+}
+
+.links-cards-wrapper {
+  display: flex;
+  gap: var(--size-30);
+  align-items: flex-start;
+  justify-content: center;
+
+  width: 60%;
+}
+
+footer .front-icon-wrapper {
+  width: 80px;
+  margin-bottom: var(--size-16);
+}
+
+.front-card {
+  color: gray;
+  font-size: var(--size-12);
+
+  width: 210px;
+}
+
+.address,
+.phone-number,
+.text-icon-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.front-card i,
+.resources-card i {
+  font-size: 8px;
+  margin-right: 5px;
+}
+
+.footer-card h4 {
+  margin: 0 0 16px 0;
+  color: black;
+}
+
+.footer-card a {
+  color: gray;
+  cursor: pointer;
+  font-size: var(--size-12);
+}
+
+.footer-card li {
+  margin-bottom: 5px;
+}
+
+.footer-card a:hover {
+  color: var(--font-color-link);
+}
+
+.hiring-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.hiring {
+  background-color: var(--font-color-link);
+  color: white;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-size: 8px;
+}
+
+.active-color,
+li .active-color {
+  color: var(--font-color-link);
+}
+
+footer hr {
+  height: 2px;
+  background-color: rgba(211, 211, 211, 0.246);
+  border: none;
 }
