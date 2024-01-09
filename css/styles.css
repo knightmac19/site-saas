@@ -485,3 +485,165 @@ span {
   font-size: var(--size-12);
   color: gray;
 }
+
+/* hire-us section */
+.hire-us {
+  background-color: #1e335a;
+  padding: 20px 0;
+  margin-bottom: var(--size-100);
+}
+
+.hire-us .container {
+  display: flex;
+  gap: var(--size-100);
+  align-items: center;
+  justify-content: center;
+}
+
+.hire-us-testimonial {
+  color: white;
+}
+
+.hire-us-testimonial h2 {
+  font-size: 22px;
+  font-weight: 600;
+}
+.first-text-wrapper {
+  font-size: 12px;
+  color: var(--font-color-light);
+  width: 150px;
+}
+.hire-us-testimonial hr {
+  color: var(--font-color-light);
+}
+.hire-us-testimonial .quote {
+  font-size: 12px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.hire-us-testimonial h4 {
+  font-size: var(--size-12);
+}
+
+.hire-us-testimonial h4,
+.hire-us-testimonial h6 {
+  margin: 0;
+}
+
+.hire-us-testimonial h6 {
+  color: var(--font-color-light);
+  margin-bottom: 30px;
+}
+
+.people-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.person img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.person .person-man {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.hire-us-form {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  width: 370px;
+  padding-bottom: var(--size-30);
+}
+
+.hire-us-form h4 {
+  margin: 0;
+  color: black;
+  margin-bottom: var(--size-16);
+}
+
+.hire-us-form input,
+.hire-us-form select {
+  border: 1px solid #d5deea85;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: var(--size-12);
+  color: var(--font-color-light);
+  width: 100%;
+}
+
+.hire-us-form select {
+  color: black;
+}
+
+.hire-us-form .name-row {
+  display: flex;
+  gap: var(--size-16);
+  margin-bottom: var(--size-16);
+}
+
+.hire-us-form textarea {
+  border: 1px solid #d5deea85;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: var(--size-12);
+  color: var(--font-color-light);
+  min-width: 100%;
+  resize: none;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: var(--size-16);
+}
+.check-privacy {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: var(--size-10);
+}
+
+.check-privacy input {
+  margin: 0;
+  margin-top: 5px;
+  margin-right: var(--size-10);
+  width: 20px;
+  transform: scale(1.3);
+}
+
+.check-privacy label {
+  font-size: var(--size-10);
+}
+.privacy-row {
+  /* margin-left: 24px; */
+  display: flex;
+  justify-content: center;
+  gap: var(--size-20);
+  margin-bottom: var(--size-20);
+}
+.privacy-policy {
+  font-size: var(--size-10);
+}
+.privacy-policy a {
+  color: var(--font-color-dark);
+  border-bottom: 1px dashed var(--font-color-dark);
+  font-weight: 600;
+}
+
+.policy-two a {
+  color: var(--font-color-link);
+  border-bottom: 1px dashed var(--font-color-link);
+}
+
+.get-started-btn {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.get-started {
+  font-size: var(--size-12);
+  font-weight: 400;
+}
