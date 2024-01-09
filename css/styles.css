@@ -300,19 +300,19 @@
   margin-bottom: var(--size-100);
 }
 .dots-wrapper {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(4, 180px);
-  justify-content: space-between;
+  display: flex;
+  justify-content: center;
+  gap: 3px;
 }
 
 .dot-item-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: fit-content;
   gap: 15px;
+  width: fit-content;
 }
 
 .dots-wrapper .gray-dot {
@@ -328,13 +328,20 @@
 .dots-wrapper .blue-dot {
   height: 5px;
   width: 5px;
-  background-color: var(--font-color-link);
+  background-color: #2476fe;
   border-radius: 50%;
 }
 
 .gray-line {
   border-top: 2px solid #d5deea85;
   width: 100%;
+  margin-top: 20px;
+  margin-left: -59px;
+  margin-right: -59px;
+}
+span {
+  width: 160px;
+  text-align: center;
 }
 
 /* why front section end */
