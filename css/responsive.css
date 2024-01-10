@@ -111,6 +111,10 @@
     right: 27%;
     top: 220px;
   }
+
+  .benefit-card {
+    width: 320px;
+  }
 }
 
 @media screen and (max-width: 480px) {
