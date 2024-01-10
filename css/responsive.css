@@ -166,6 +166,36 @@
     margin: 0 auto;
     width: 100px;
   }
+
+  /* pricing section */
+  .pricing-cards-wrapper {
+    width: 95%;
+    flex-wrap: wrap;
+  }
+  .pricing-card-lg {
+    width: 100%;
+    text-align: center;
+  }
+
+  .pricing-card-lg .card-title {
+    justify-content: center;
+  }
+
+  .pricing-card-lg p {
+    font-size: var(--size-16);
+  }
+
+  .pricing-card-lg button {
+    margin: 0 auto;
+  }
+
+  .small-cards-wrapper {
+    width: 100%;
+  }
+
+  .small-card {
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 480px) {
