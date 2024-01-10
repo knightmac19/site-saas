@@ -33,7 +33,7 @@
   <body>
     <!-- prettier-ignore -->
 
-    <nav id="topNav" class="navbar nav sticky">
+    <nav id="topNav" class="navbar nav">
       <div class="container">
         <button
           class="navbar-toggler"
@@ -914,6 +914,14 @@
       const expanded =
         target.getAttribute("aria-expanded") === "true" || false;
       console.log(expanded);
+      if (expanded !== true) {
+        nav.classList.add("sticky");
+        console.log(nav.classList)
+        
+      } else {
+        console.log(nav.classList)
+        nav.classList.remove("sticky");
+      }
 
       navButton.setAttribute("aria-expanded", !expanded);
     }
