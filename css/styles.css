@@ -353,7 +353,7 @@
 /* why front section end */
 .banner-two {
   position: relative;
-  margin-bottom: var(--size-100);
+  margin-bottom: var(--size-150);
 }
 
 .play-circle-icon {
@@ -385,8 +385,23 @@
   gap: var(--size-40);
 }
 
+.hubspot .img-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.hubspot .img-wrapper .dots {
+  width: 50%;
+}
+.hubspot .img-wrapper .woman-img {
+  width: 86%;
+  position: absolute;
+  right: 0;
+  top: -20%;
+}
+
 .hubspot-text-wrapper {
-  margin-top: var(--size-100);
+  margin-top: var(--size-50);
 }
 
 .hubspot-icon-wrapper {
