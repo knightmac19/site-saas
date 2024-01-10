@@ -12,19 +12,15 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-
     position: absolute;
     right: 0;
     top: 77px;
-
     background-color: white;
     width: 100%;
-
     box-shadow: 0px 5px 20px rgba(52, 49, 75, 0.1);
     transition: ease-in-out 0.3s;
     padding-top: var(--size-50);
     padding-bottom: var(--size-50);
-    /* border: 1px solid black; */
   }
 
   [aria-expanded="true"] ~ ul li:nth-child(6) {
@@ -41,6 +37,79 @@
   }
   [aria-expanded="true"] ~ ul li a:hover {
     color: var(--font-color-link);
+  }
+
+  /* header section */
+
+  .header {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-bottom: var(--size-50);
+  }
+
+  .header-text {
+    grid-column: 1 / 6;
+    text-align: center;
+    margin-bottom: var(--size-50);
+  }
+
+  .header-btn-wrapper {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .header-icons-wrapper {
+    grid-column: 1 / 6;
+    height: 340px;
+    text-align: center;
+  }
+
+  .brand-icon-lg {
+    height: 80px;
+    width: 80px;
+    padding: 16px;
+  }
+
+  .brand-icon-sm {
+    height: 60px;
+    width: 60px;
+    padding: 12px;
+  }
+
+  .google {
+    position: absolute;
+    right: 65%;
+  }
+  .atlassian {
+    position: absolute;
+    right: 45%;
+    top: 3%;
+  }
+  .assana {
+    position: absolute;
+    right: 26%;
+    top: 4px;
+  }
+  .paypal {
+    position: absolute;
+    right: 63%;
+    top: 120px;
+  }
+  .weave {
+    position: absolute;
+    right: 38%;
+    top: 125px;
+  }
+  .google-a {
+    position: absolute;
+    right: 57%;
+    top: 230px;
+  }
+  .calendar {
+    position: absolute;
+    right: 27%;
+    top: 220px;
   }
 }
 

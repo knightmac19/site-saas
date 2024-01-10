@@ -913,13 +913,13 @@
     function toggleNav({ target }) {
       const expanded =
         target.getAttribute("aria-expanded") === "true" || false;
-      console.log(expanded);
+      
       if (expanded !== true) {
         nav.classList.add("sticky");
-        console.log(nav.classList)
+        
         
       } else {
-        console.log(nav.classList)
+        
         nav.classList.remove("sticky");
       }
 
