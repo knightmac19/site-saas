@@ -118,6 +118,10 @@ img {
   text-align: center;
 }
 
+.tablet-br {
+  display: none;
+}
+
 @media (min-width: 1200px) {
   .container,
   .different-perspectives {

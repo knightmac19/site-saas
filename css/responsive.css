@@ -112,8 +112,37 @@
     top: 220px;
   }
 
+  /* key benefits section */
   .benefit-card {
     width: 320px;
+  }
+
+  /* different perspectives section */
+  .different-perspectives {
+    padding-left: 0;
+  }
+
+  .dif-perspectives-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .perspectives-text-wrapper {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .tablet-br {
+    display: block;
+  }
+
+  .perspectives-text-wrapper button {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .perspectives-img-wrapper {
+    margin-top: var(--size-30);
+    width: 100%;
   }
 }
 
