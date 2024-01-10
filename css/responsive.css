@@ -196,6 +196,43 @@
   .small-card {
     width: 50%;
   }
+
+  /* hire us section */
+  .hire-us .container {
+    flex-wrap: wrap;
+  }
+  .hire-us-testimonial {
+    width: 100%;
+    display: flex;
+    gap: var(--size-40);
+    justify-content: space-between;
+  }
+  .first-text-wrapper {
+    width: 100%;
+  }
+  .first-text-wrapper p {
+    font-size: var(--size-16);
+  }
+
+  .first-text-wrapper hr {
+    margin: 20px 0;
+  }
+
+  .tablet-btm {
+    margin-top: var(--size-50);
+    margin-right: var(--size-20);
+  }
+
+  .hire-us-testimonial h4 {
+    font-size: var(--size-18);
+  }
+  .hire-us-testimonial h6 {
+    font-size: var(--size-12);
+  }
+
+  .tablet-none {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 480px) {
