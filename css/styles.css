@@ -393,9 +393,9 @@
 
 /* hubspot section */
 .hubspot {
-  /* border: 1px solid black; */
   margin-bottom: var(--size-100);
   display: flex;
+
   gap: var(--size-40);
 }
 
