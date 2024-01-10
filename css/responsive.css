@@ -233,6 +233,13 @@
   .tablet-none {
     display: none;
   }
+  .hire-us-form {
+    width: 100%;
+  }
+
+  .check-privacy label {
+    font-size: var(--size-16);
+  }
 }
 
 @media screen and (max-width: 480px) {

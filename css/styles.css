@@ -651,7 +651,6 @@
   font-size: var(--size-10);
 }
 .privacy-row {
-  /* margin-left: 24px; */
   display: flex;
   justify-content: center;
   gap: var(--size-20);
