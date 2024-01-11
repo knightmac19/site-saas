@@ -240,6 +240,19 @@
   .check-privacy label {
     font-size: var(--size-16);
   }
+
+  /* footer start */
+  .links-cards-wrapper {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .links-cards-wrapper .footer-card {
+    width: 30%;
+  }
+
+  .final-content-wrapper {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 480px) {
