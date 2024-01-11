@@ -1,0 +1,19 @@
+/* mobile devices */
+@media screen and (max-width: 767px) {
+  [aria-expanded="true"] ~ ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  [aria-expanded="true"] ~ ul li {
+    margin-bottom: var(--size-20);
+  }
+  [aria-expanded="true"] ~ ul li a {
+    margin-right: 0;
+  }
+
+  [aria-expanded="true"] ~ ul li:nth-child(6) {
+    padding-top: 0;
+  }
+}
