@@ -208,6 +208,15 @@
     align-items: center;
   }
 
+  footer .footer-card {
+    text-align: center;
+  }
+
+  footer .footer-card li {
+    display: flex;
+    justify-content: center;
+  }
+
   footer .bottom-row {
     display: flex;
     flex-direction: column;
