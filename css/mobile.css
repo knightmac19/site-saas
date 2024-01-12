@@ -207,4 +207,26 @@
     justify-content: center;
     align-items: center;
   }
+
+  footer .bottom-row {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-20);
+  }
+
+  footer .bottom-row .right-icons .mobile-social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  footer .bottom-row .right-icons .mobile-icons-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-20);
+  }
+
+  footer .mobile-icons-wrapper .select-wrapper {
+    margin-left: 0;
+  }
 }
