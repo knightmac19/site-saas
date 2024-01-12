@@ -141,4 +141,34 @@
   .small-cards-wrapper .small-stacked-cards .small-card {
     width: 100%;
   }
+
+  /* hire us section */
+  .hire-us .container {
+    gap: var(--size-40);
+  }
+
+  .hire-us .hire-us-testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--size-50);
+  }
+
+  .hire-us .hire-us-testimonial .tablet-top {
+    text-align: center;
+  }
+  .hire-us .hire-us-testimonial .tablet-top .quote {
+    margin-bottom: 0;
+    font-size: var(--size-14);
+  }
+
+  .hire-us .hire-us-testimonial .tablet-btm {
+    margin-top: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .hire-us .hire-us-form {
+  }
 }
