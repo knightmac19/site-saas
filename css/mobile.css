@@ -177,4 +177,34 @@
   .hire-us .hire-us-form .check-privacy label {
     font-size: var(--size-12);
   }
+
+  /* footer section */
+
+  footer .top-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer .front-card {
+    width: 100%;
+  }
+
+  footer .front-card .front-icon-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer .front-card .address,
+  footer .front-card .phone-number {
+    justify-content: center;
+    font-size: var(--size-14);
+  }
+
+  footer .links-cards-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
