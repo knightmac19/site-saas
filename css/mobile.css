@@ -169,6 +169,12 @@
     text-align: center;
   }
 
-  .hire-us .hire-us-form {
+  .hire-us .hire-us-form .name-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .hire-us .hire-us-form .check-privacy label {
+    font-size: var(--size-12);
   }
 }
