@@ -107,8 +107,28 @@
   }
 
   /* hubspot section */
+  .hubspot {
+    margin-bottom: var(--size-50);
+  }
   .hubspot .img-wrapper,
   .hubspot .hubspot-text-wrapper {
     width: 95%;
   }
+
+  /* trusted by section */
+  .trusted-by {
+    margin-bottom: var(--size-50);
+  }
+
+  .trusted-by h3 {
+    font-size: var(--size-20);
+  }
+
+  .trusted-by .trusted-brands {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-14);
+  }
+
+  /* pricing section */
 }
