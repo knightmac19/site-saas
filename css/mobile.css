@@ -16,4 +16,99 @@
   [aria-expanded="true"] ~ ul li:nth-child(6) {
     padding-top: 0;
   }
+
+  .header-background {
+    width: 100%;
+  }
+
+  .brand-icon-lg {
+    height: 80px;
+    width: 80px;
+    padding: 16px;
+  }
+
+  .brand-icon-sm {
+    height: 60px;
+    width: 60px;
+    padding: 12px;
+  }
+
+  .google {
+    position: absolute;
+    right: 80%;
+  }
+  .atlassian {
+    position: absolute;
+    right: 40%;
+    top: 5%;
+  }
+  .assana {
+    position: absolute;
+    right: 0;
+    top: 4px;
+    height: 80px;
+    width: 80px;
+    padding: 16px;
+  }
+  .paypal {
+    position: absolute;
+    right: 76%;
+    top: 120px;
+    height: 70px;
+    width: 70px;
+    padding: 12px;
+  }
+  .weave {
+    position: absolute;
+    right: 20%;
+    top: 120px;
+    height: 70px;
+    width: 70px;
+    padding: 12px;
+  }
+  .google-a {
+    position: absolute;
+    right: 60%;
+    top: 230px;
+  }
+  .calendar {
+    position: absolute;
+    right: 5%;
+    top: 260px;
+  }
+
+  /* key benefits section */
+  .benefits-cards-wrapper .benefit-card h4 {
+    font-size: var(--size-14);
+  }
+
+  .mobile-none {
+    display: none;
+  }
+
+  /* why front section */
+  .why-front .dots-wrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: var(--size-40);
+    gap: var(--size-20);
+  }
+
+  .why-front .dot-item-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .dot-item-wrapper .why-text {
+    width: fit-content;
+  }
+
+  /* hubspot section */
+  .hubspot .img-wrapper,
+  .hubspot .hubspot-text-wrapper {
+    width: 95%;
+  }
 }
