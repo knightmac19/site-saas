@@ -131,4 +131,14 @@
   }
 
   /* pricing section */
+  .pricing .small-cards-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+  }
+
+  .small-cards-wrapper .small-stacked-cards .small-card {
+    width: 100%;
+  }
 }
