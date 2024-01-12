@@ -781,6 +781,16 @@ footer hr {
   justify-content: space-between;
 }
 
+footer .mobile-icons-wrapper {
+  display: flex;
+}
+
+.mobile-icons-wrapper .mobile-social-icons {
+  display: flex;
+  flex-direction: row;
+  gap: var(--size-10);
+}
+
 .left-links,
 .right-icons {
   display: flex;
